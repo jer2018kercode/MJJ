@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(159, 30, 233);
+}
+.jeux{
+    width: 440px;
+    height: 440px;
+    border: 5px solid lawngreen;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius : 300px;
+    position:relative;
+    background-color:black;
+}
+
+.quatreboutons{
+    position: absolute;
+    height: 200px;
+    width:200px;
+    margin: 12px
+
+}
+
+#boutonrouge{
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 0 100% 0 0;
+
+}
+
+#boutonbleu{
+    bottom:0;
+    right:0;
+    background-color: blue;
+    border-radius: 0 0 100% 0;
+}
+
+#boutonvert{
+    top:0;
+    left:0;
+    background-color: green;
+    border-radius: 100% 0 0 0;
+}
+
+#boutonjaune{
+    bottom: 0;
+    background-color: rgb(251, 255, 0);
+    border-radius: 0 0 0 100%;
+    
+}
+#boutoncentre {
+    position:absolute;
+    background-color:white;
+    border: 10px solid black;
+      width:180px;
+      height:180px;
+      top:123px;
+      left:123px;
+      border-radius:40%;
+  }
+  #titre {
+    height: 70px;
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+  }
+  #boutonstart{
+      position: absolute;
+      background-color:red;
+      border-radius:40%;
+      height: 30px;
+      width:40px;
+      top:200px;
+      left:198px;
+      text-align: center;
+      padding-top:10px
+  }
+  #monImage{
+        margin-left: 39%;
+  }
+  h1{
+      text-align: center;
+  }
+#prev{
+    margin-left: 38%;
+
+}
+#next{
+    margin-left: 60%;
+}
